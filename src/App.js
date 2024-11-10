@@ -9,7 +9,6 @@ import women_banner from "./Components/Assets/banner_women.png";
 import men_banner from "./Components/Assets/banner_mens.png";
 import kid_banner from "./Components/Assets/banner_kids.png";
 import LoginSignup from "./Pages/LoginSignup";
-import Carousel from "./Components/Carousel/Carousel";
 
 function App() {
 
@@ -17,7 +16,7 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        <Carousel></Carousel>
+        
         <Routes>
           <Route path="/" element={<Shop gender="all" />} />
           <Route path="/mens" element={<ShopCategory banner={men_banner} category="men" />} />
