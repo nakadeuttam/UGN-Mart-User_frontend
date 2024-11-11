@@ -1,10 +1,6 @@
 import React from 'react'
 import './Footer.css'
-
 import footer_logo from '../Assets/Logo.gif'
-import instagram_icon from '../Assets/instagram_icon.png'
-import pintrest_icon from '../Assets/pintester_icon.png'
-import whatsapp_icon from '../Assets/whatsapp_icon.png'
 
 const Footer = () => {
   return (
@@ -21,15 +17,10 @@ const Footer = () => {
         <li>Contact</li>
       </ul>
       <div className="footer-social-icons">
-        <div className="footer-icons-container">
-            <img src={instagram_icon} alt="" />
-        </div>
-        <div className="footer-icons-container">
-            <img src={pintrest_icon} alt="" />
-        </div>
-        <div className="footer-icons-container">
-            <img src={whatsapp_icon} alt="" />
-        </div>
+      <a href="https://www.instagram.com/nakadeuttam96/profilecard/?igsh=MWk4Y2R3Z3Q3eGZwNw==" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram fa-xl"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100073788919787&mibextid=ZbWKwL" target='_blank' rel="noreferrer"><i className="fa-brands fa-facebook fa-xl"></i></a>
+      <a href="https://www.linkedin.com/in/uttam-nakade-54a852247/" target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin fa-xl"></i></a>
+      <a href="https://github.com/nakadeuttam" target="_blank" rel="noreferrer"><i className="fa-brands fa-github fa-xl"></i></a>
       </div>
       <div className="footer-copyright">
         <hr />

@@ -33,7 +33,12 @@
 }
 .footer-social-icons{
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.footer-social-icons i{
+    cursor: pointer;
 }
 .footer-icons-container{
     padding: 10px;
